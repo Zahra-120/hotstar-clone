@@ -1,0 +1,138 @@
+.horizontal-scroll-container {
+    display: flex;
+    overflow-x: auto;
+    /* white-space: nowrap; */
+    margin: 20px;
+    /* gap: 20px; */
+  }
+
+  .horizontal-scroll-container::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .horizontal-scroll-item {
+    width: 200px; 
+    height: 300px;
+    border-radius: 5px;
+    margin-right: 20px;
+  }
+
+  .scroll-button1 {
+    position: absolute;
+    top: 190px;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    height: 310px;
+    cursor: pointer;
+    z-index: 1;
+    font-size: 18px;
+  }
+  
+  .scroll-button1.left {
+    left: 0px;
+  }
+
+  .scroll-button1.right {
+    right: 0px;
+  }
+
+  .scroll-button2 {
+    position: absolute;
+    top: 190px;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    height: 305px;
+    cursor: pointer;
+    z-index: 1;
+    font-size: 18px;
+  }
+  
+  .scroll-button2.left {
+    left: 0px;
+  }
+  
+  .scroll-button2.right {
+    right: 0px;
+  }
+
+  .scroll-button3 {
+    position: absolute;
+    top: 190px;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 1;
+    height: 305px;
+    font-size: 18px;
+  }
+  
+  .scroll-button3.left {
+    left: 0px;
+  }
+  
+  .scroll-button3.right {
+    right: 0px;
+  }
+
+  .scroll-button4 {
+    position: absolute;
+    top: 190px;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 1;
+    height: 305px;
+    font-size: 18px;
+  }
+  
+  .scroll-button4.left {
+    left: 0px;
+  }
+  
+  .scroll-button4.right {
+    right: 0px;
+  }
+  
+
+  .title {
+    color: white;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+
+
+  /* After Hover Properties Applied  */
+  .horizontal-scroll-wrapper {
+    position: relative;
+    /* margin: 20px 0; */
+  }
+  
+  /* .horizontal-scroll-item {
+    // position: relative;
+    width: 200px; 
+    height: 300px; 
+    margin: 0 10px;
+  }
+   */
+  /* .horizontal-scroll-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  } */
+  
+  /* .horizontal-scroll-item:hover .hover-card {
+    opacity: 1;
+  } */
+  

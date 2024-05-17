@@ -1,0 +1,18 @@
+API Key : api_key=23ed51049c6c8a76792e81075f71f2c7
+Dummy : https://api.themoviedb.org/3/movie/550?api_key=23ed51049c6c8a76792e81075f71f2c7
+
+Now Playing : https://api.themoviedb.org/3/movie/now_playing?api_key=23ed51049c6c8a76792e81075f71f2c7
+
+Popular : https://api.themoviedb.org/3/movie/popular?api_key=23ed51049c6c8a76792e81075f71f2c7
+
+Top Rated : https://api.themoviedb.org/3/movie/top_rated?api_key=23ed51049c6c8a76792e81075f71f2c7
+
+TV :https://api.themoviedb.org/3/tv/on_the_air?api_key=23ed51049c6c8a76792e81075f71f2c7
+
+: https://api.themoviedb.org/3/trending/all/day?api_key=23ed51049c6c8a76792e81075f71f2c7
+
+
+https://api.themoviedb.org/3/tv/popular?api_key=23ed51049c6c8a76792e81075f71f2c7
+
+https://api.themoviedb.org/3/tv/top_rated?api_key=23ed51049c6c8a76792e81075f71f2c7
+
