@@ -21,8 +21,8 @@ export default function Modal(props) {
 
     const submitHandler = (event) => {
         event.preventDefault();
-        toast.success("Log In Successful")
         if (validateInputs()) {
+            toast.success("Log In Successful")
             console.log("Username", username);
             console.log("Password", password);
             props.onClose();
